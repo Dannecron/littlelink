@@ -1,19 +1,30 @@
 ![Logo](https://cdn.cottle.cloud/littlelink/littlelink.gif)
 
 # LittleLink
-The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more being added by our community all the time.
+The DIY self-hosted LinkTree alternative. LittleLink has more than 100 branded button styles you can easily use, with more regularly added by our community in this repo and in [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). 
+
+---
+### 🌞 Themes and Accessibility
+LittleLink offers both `light` and `dark` themes right out of the box. If the default color schemes don't match your preference, you can easily customize them by updating the values in `skeleton-light.css` or `skeleton-dark.css`. For those who prefer an automatic adjustment, setting your CSS to `skeleton-auto.css` enables the theme to adapt based on the device's system settings. To enhance visual accessibility in both `light` and `dark` modes, buttons lacking sufficient contrast with the background are outlined with an inverse stroke to ensure visibility. While LittleLink emphasizes accessibility, it's important to acknowledge that not all brands incorporated into LittleLink achieve this standard. Branded buttons that come into LittleLink always retain the original essence of the brand and some branded buttons might fall short of optimal accessibility in terms of contrast.
 
 ![Theme](https://cdn.cottle.cloud/littlelink/themesupport.gif)
 
-LittleLink has more than 100 branded button styles you can use (with even more being added by our community). You'll also find a light and dark theme ready to go. Not a fan of the default colors? Update `skeleton-light.css` or `skeleton-dark.css` to the HEX values of your choosing. You can also set your CSS to `skeleton-auto.css`, which will use the system theme of the device you visit on.
+---
+### 🥇 Performance
 
-![Performance](https://cdn.cottle.cloud/littlelink/Lighthouse.svg)
+![Performance](https://cdn.cottle.cloud/littlelink/PerformanceBlock.svg)
 
-Using [Skeleton](http://getskeleton.com/) let us build something that loads quickly & doesn't have any of the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity. LittleLink scored a 99/100 in performance when tested with [Google Lighthouse](https://developers.google.com/web/tools/lighthouse).
+LittleLink epitomizes simplicity and minimalism. When evaluating the [LittleLink sample page](https://littlelink.io/sample/seth) (which mirrors a typical LittleLink setup for an individual) through tools such as [Google PageSpeed Insights](https://pagespeed.web.dev/analysis/https-littlelink-io-sample-seth/17ex80ryq4?form_factor=mobile), showcases LittleLink's excellence with 100/100 in Performance, Accessibility, Best Practices, and SEO. My initial vision for LittleLink was to craft it from the fundamentals. I chose [Skeleton](http://getskeleton.com/) as the foundation, enabling me to create something minimal and quick, removing the unnecessary bloat you would get from using a large framework for a page that requires nothing more than simplicity.
 
-![Publish](https://cdn.cottle.cloud/littlelink/Publish.svg)
+---
+### ☁️ Deploy
 
-No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify). 👇️
+![Publish](https://cdn.cottle.cloud/littlelink/Deployment.svg)
+
+No need for gulp, npm, or anything else to make LittleLink work—it uses the bare essentials. You can automatically fork and deploy LittleLink with [Vercel](https://vercel.com/), [Netlify](https://www.netlify.com/), or [Amplify](https://aws.amazon.com/amplify) using the button below. LittleLink is also easy to host through [GitHub Pages](https://pages.github.com/) or on your home lab server, CDN, or other frontend hosting services. To edit, all you need is a little basic HTML knowledge to add a link to the exisiting buttons or you can create your own. See our [adding custom buttons to your own fork wiki](https://github.com/sethcottle/littlelink/wiki/Adding-custom-buttons-to-your-own-fork). It's simple, promise. 🤞
+
+---
+##### One-Click Deployments
 
 [![Deploy to Vercel](https://cdn.cottle.cloud/littlelink/button-deploy-vercel.svg)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2Fsethcottle%2Flittlelink&project-name=littlelink&repository-name=littlelink)
 
@@ -23,14 +34,14 @@ No need for gulp, npm, or anything else to make LittleLink work—it uses the ba
 
 ---
 
-### 🥰 Contributions
+### 🤝 Contributions
 Please reference the [submitting a new brand to LittleLink wiki](https://github.com/sethcottle/littlelink/wiki/Submitting-a-new-brand-to-LittleLink) before opening a PR.
 
 ---
-### 🤝 Community Extras
+### 📦 Community Extras
 
-#### 📦 LittleLink Extended
-Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered.
+#### 🛸 LittleLink Extended
+Looking for more niche services to add to your copy of LittleLink? Check out [LittleLink Extended](https://github.com/sethcottle/littlelink-extended). Users can add more niche services to this repository to help keep the core LittleLink repository less cluttered and more focused on delivering branded experiences for the majority of users.
 
 #### 🎨 Figma
 Duplicate the [LittleLink Template on Figma Community](https://www.figma.com/community/file/846568099968305613) to help plan out and design your LittleLink page.
@@ -92,4 +103,4 @@ To help build a more privacy focused product, we recommend using [Fathom Analyti
 
 ###### ** Analytics in this dashboard start May 03, 2022. View this [Google Sheets file](https://docs.google.com/spreadsheets/d/1GL4SroAdH-OZphBVR5z-BoSukHIEVJfao25q_e9-Ii8/edit?usp=sharing) with the generic unique pageview data from Google Analytics.
 
-[![PayPal](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
+[![Fathom](https://cdn.cottle.cloud/littlelink/button-fathom-analytics.svg)](https://usefathom.com/ref/EQVZMV)
