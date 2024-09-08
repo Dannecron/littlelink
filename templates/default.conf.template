@@ -1,8 +1,8 @@
 server {
 	listen 80;
-	
-	location / {
-		root /opt/litterlink;
-		index index.html;
+
+	location ~ ^$LINK_PREFIX/$ {
+   		root /opt/litterlink/;
+    	try_files /index.html =404;
 	}
 }
