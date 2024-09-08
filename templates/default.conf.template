@@ -1,9 +1,9 @@
 server {
 	listen 80;
 
-	location $LINK_PATH {
+	location / {
 		autoindex on;
-   		alias /opt/litterlink;
+   		root /opt/litterlink;
 		index index.html;
 	}
 }
